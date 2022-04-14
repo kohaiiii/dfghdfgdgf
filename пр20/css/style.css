@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+.navbar-brand img {
+  height: 50px;
+}
+.img_cart {
+  height: 150px;
+}
+tbody td {
+  width: 30%;
+}
+.user-header{
+  padding: 8px;
+  display: inline-block;
+  /* background-color -> backgroundColor */
+}
+.cart-table img{
+  height: 200px;
+}
